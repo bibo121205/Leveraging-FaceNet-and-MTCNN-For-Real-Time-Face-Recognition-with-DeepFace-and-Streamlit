@@ -24,19 +24,31 @@ A simple yet effective face recognition system built with Python, leveraging Dee
 
 ## Usage
 
-### Web Interface (Streamlit)
+### 1. Clone the Repository
+First, clone the repository to your local machine:
+
 ```bash
-streamlit run app.py
+git clone https://github.com/bibo121205/Leveraging-FaceNet-and-MTCNN-For-Real-Time-Face-Recognition-with-DeepFace-and-Streamlit.git
+cd Leveraging-FaceNet-and-MTCNN-For-Real-Time-Face-Recognition-with-DeepFace-and-Streamlit
+```
+### 2. Install Dependencies
+Install all the required Python packages using the requirements.txt file:
+
+```bash
+pip install -r requirements.txt
+```
+### 3. Run the Streamlit Application
+Launch the application by running the main.py file with Streamlit:
+
+```bash
+streamlit run main.py
+```
+or
+```bash
+python -m streamlit run main.py
 ```
 
-## Dependencies
-
-- `deepface`: Face embedding generation with FaceNet
-- `mtcnn`: Face detection and landmark extraction
-- `opencv-python`: Image processing and webcam handling
-- `scikit-learn`: Cosine similarity calculations
-- `streamlit`: Web interface (optional)
-- `pillow`: Image handling
+Your web browser should open with the application running. You can now use the interface to perform real-time face recognition.
 
 ## File Structure
 

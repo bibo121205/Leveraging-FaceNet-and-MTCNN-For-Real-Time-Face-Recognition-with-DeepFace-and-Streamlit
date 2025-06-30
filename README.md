@@ -2,9 +2,7 @@
 
 A simple yet effective face recognition system built with Python, leveraging DeepFace with FaceNet 128 embeddings and manual MTCNN face detection and alignment.
 
-## What We Built
-
-We created a complete face recognition system that can:
+## Features
 - Register multiple individuals using webcam or uploaded images
 - Recognize faces in real-time with confidence scores
 - Store face embeddings persistently in a database
